@@ -1,0 +1,30 @@
+.DS_Store
+.pyc
+__pycache__
+__pycache__/*
+core.egg-info
+core.egg-info/
+
+# static folder (css, js, etc) local
+static
+static/*
+
+# vscode settings
+.vscode/*
+
+# media folder (uploaded file by user) local
+media
+media/*
+upload
+upload/*
+
+deploy/fabfile.pyc
+deploy/admin/
+deploy/google_cloud.json
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+
+#src folder
+src/

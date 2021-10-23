@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-17 15:35+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <ardzix@hotmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: api/company/serializers/address.py:71
+msgid "You should provide value like this: lat,lng"
+msgstr "Anda harus memasukkan nilai sebagai berikut: lat,lng"
+
+#: api/company/serializers/address.py:79
+msgid "Latitude and longitude must be float type"
+msgstr "Latitude dan longitude harus bertipe float"
+
+#: core/libs/constants.py:5
+msgid "Loan Origination System"
+msgstr "Sistem Originasi Pinjaman"
+
+#: core/libs/constants.py:6
+msgid "Crowdfunding"
+msgstr "Pendanaan masal"
+
+#: core/libs/constants.py:7
+msgid "Disbursement"
+msgstr "Pencairan"
+
+#: core/structures/project/models.py:26
+msgid "Project"
+msgstr "Proyek"
+
+#: core/structures/project/models.py:27
+msgid "Projects"
+msgstr "Proyek-proyek"
+
+#: core/structures/project/models.py:40
+msgid "Project Member"
+msgstr "Anggota proyek"
+
+#: core/structures/project/models.py:41
+msgid "Project Members"
+msgstr "Anggota proyek"
+
+#: core/structures/role/models.py:26
+msgid "Permission"
+msgstr "Izin"
+
+#: core/structures/role/models.py:27
+msgid "Permissions"
+msgstr "Izin"
+
+#: core/structures/role/models.py:34
+msgid "permissions"
+msgstr "izin"
+
+#: core/structures/role/models.py:41
+msgid "Project Role"
+msgstr "Peran proyek"
+
+#: core/structures/role/models.py:42
+msgid "Project Roles"
+msgstr "Peran-peran proyek"

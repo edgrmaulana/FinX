@@ -1,0 +1,13 @@
+[Unit]
+Description=Daemon for account.finx.id
+Documentation=http://docs.investx.id
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/opt/app/finx.id/venv/bin/supervisord -c /opt/app/finx.id/account.finx.id/deploy/staging/supervisord.conf
+ExecReload=/opt/app/finx.id/venv/bin/supervisorctl -c /opt/app/finx.id/account.finx.id/deploy/staging/supervisord.conf reload
+ExecStop=/opt/app/finx.id/venv/bin/supervisorctl -c /opt/app/finx.id/account.finx.id/deploy/staging/supervisord.conf shutdown
+
+[Install]
+WantedBy=multi-user.target
